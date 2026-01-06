@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
-import { deposit } from "./features/accounts/AccountSlice";
+import { deposit } from "./features/accounts/accountSlice";
 import store from "./store.ts";
 import { createCustomer } from "./features/customers/customerSlice.ts";
 

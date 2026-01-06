@@ -69,9 +69,9 @@ export default function accountReducer(
     case "account/payLoan":
       return {
         ...state,
+        balance: state.balance - state.loan,
         loan: 0,
         loanPurpose: "",
-        balance: state.balance - state.loan,
       };
     default:
       return state;
